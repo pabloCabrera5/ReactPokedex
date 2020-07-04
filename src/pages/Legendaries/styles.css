@@ -1,0 +1,54 @@
+.legendaries {
+    width: 80%;
+    margin: 50px auto;
+
+}
+.legendaries > p {
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(90, 131, 155);
+}
+
+#imglegendaries {
+    width: 100%;
+    border-radius: 3%;
+}
+
+/*cards of pokemons*/
+.articuno {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 1px solid #3206f3;
+    margin: 10px 0;
+    box-shadow: 3px 3px 5px #3206f3, -3px -3px 5px #8d77f1;
+    align-items: center;
+    border-radius: 20px 0;
+    text-align: center;
+    background-color: rgb(236, 234, 233);
+  }
+.articuno:hover {
+    box-shadow: 3px 3px 5px 5px #3206f3, -3px -3px 5px 5px #8d77f1;
+}
+.moltres {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 1px solid #fc0303;
+    margin: 10px 0;
+    box-shadow: 3px 3px 5px #e6880d, -3px -3px 5px #fc0303;
+    align-items: center;
+    border-radius: 20px 0;
+    text-align: center;
+    background-color: rgb(236, 234, 233);
+  }
+.moltres:hover {
+    box-shadow: 3px 3px 5px 5px #e6880d, -3px -3px 5px 5px #fc0303;
+}
+
+@media screen and (max-width: 600px) {
+    .articuno, .moltres {
+      display: block;
+    }
+}

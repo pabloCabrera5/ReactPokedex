@@ -1,0 +1,106 @@
+:root {
+    --brand-color_1: #CA4246;
+    --brand-color_2: #F18F43;
+    --brand-color_3: #8B9862;
+    --brand-color_4: #df820a;
+    --brand-color_5: #A7489B;
+}  
+
+.pokemonsResults {
+    justify-content: center;
+    text-align: center;
+
+    margin: 3px;
+    padding: 2px;
+}
+
+.pokemons {
+    display: flex;
+}
+
+
+.types {
+    margin: 25px 10px;
+    
+    
+}
+.buttonGroup {
+    top: 0;
+    position: sticky;
+    justify-content: center;
+    
+}
+.buttonGroup > button {
+    display: block;
+    padding: 5px;
+    margin: 10px 3px ;
+    
+    width: 100%;
+    height: auto;
+
+    color: white;
+    background-color: rgb(19, 145, 230);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.buttonGroup > button:hover {
+    background-color: rgb(6, 87, 141);
+    box-shadow: 3px 3px 3px rgb(17, 157, 250) ;
+}
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .types {
+        margin: 25px 10px;
+    }
+}
+
+
+/*CSS to add the background color and animation to the list of trendings*/
+#btnpokemons {
+    
+    animation: mymove3 5s infinite;
+}
+#btnmega {
+    
+    animation: mymove4 5s infinite;
+}
+#btnalola {
+    
+    animation: mymove5 5s infinite;
+}
+#btnlegendaries {
+    
+    animation: mymove2 5s infinite;
+}
+/*
+.buttonGroup:nth-child(5n+4) {
+    background-color: var(--brand-color_5);
+    animation: mymove1 5s infinite;
+}
+*/
+
+@keyframes mymove1 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_1);}
+}
+@keyframes mymove2 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_2);}
+}
+@keyframes mymove3 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_3);}
+}
+@keyframes mymove4 {
+    50% {box-shadow: 10px 20px 30px #df2a0a;}
+}
+@keyframes mymove5 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_5);}
+}

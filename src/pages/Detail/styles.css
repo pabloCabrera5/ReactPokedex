@@ -1,0 +1,15 @@
+.detail {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .detail {
+        width: 85%;
+        display: block;
+    }
+}

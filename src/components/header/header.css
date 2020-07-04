@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
+.navbar {
+    
+    width: 100%;
+    background-color: #ddd;
+    background-image: url("/images/evee.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #e4e3e3;
+    background-position: center; /* Center the image */
+    background-size: 100% 300px;
+
+    display: flex;
+}
+.logo {
+    align-self: center;
+}
+#imglogo {
+    width: 100%;
+}
+.navbar > img {
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 150px;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 0;
+    font-family: "Caveat", cursive;
+}
+
+li {
+    padding: 5px 15px;
+    font-size: 3.0em;
+    background: rgba(189, 187, 187, 0.9);
+    border-radius: 30px;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 5px;
+    
+}
+li:hover {
+    background-color: #ebe2e2;
+}
+.navmenu {
+    background-image: linear-gradient(95deg,
+    #CA4246 0%, 
+    #E16541 13%, 
+    #E16541 30%, 
+    #F18F43 30%, 
+    #F18F43 45%, 
+    #8B9862 45%, 
+    #8B9862 60%, 
+    #476098 60%, 
+    #476098 75%, 
+    #A7489B 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu .icon {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    /*ul {
+        display: block;
+    }*/
+    .navbar {
+        display: block;
+    }
+    .menu > li:not(:first-child) {display: none;}
+    #icon {
+      float: right;
+      display: block;
+    }
+    #Home {
+        width: 65%;
+    }
+    .menu.responsive {
+        position: relative;
+        display: block;
+    }
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive li {
+      display: block;
+    }
+    .navbar {
+        background-image: url("/images/pokemon1.jpg");
+        background-size: auto;
+    }
+}

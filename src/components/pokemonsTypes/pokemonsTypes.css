@@ -1,0 +1,47 @@
+
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*CSS to add the background color and animation*/
+#btnpokemons {
+    
+    animation: mymove3 5s infinite;
+}
+#btnmega {
+    
+    animation: mymove4 5s infinite;
+}
+#btnalola {
+    
+    animation: mymove5 5s infinite;
+}
+#btnlegendaries {
+    
+    animation: mymove2 5s infinite;
+}
+/*
+.buttonGroup:nth-child(5n+4) {
+    background-color: var(--brand-color_5);
+    animation: mymove1 5s infinite;
+}
+*/
+
+@keyframes mymove1 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_1);}
+}
+@keyframes mymove2 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_2);}
+}
+@keyframes mymove3 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_3);}
+}
+@keyframes mymove4 {
+    50% {box-shadow: 10px 20px 30px #df820a;}
+}
+@keyframes mymove5 {
+    50% {box-shadow: 10px 20px 30px var(--brand-color_5);}
+}

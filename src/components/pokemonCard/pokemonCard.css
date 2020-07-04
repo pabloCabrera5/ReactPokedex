@@ -1,0 +1,29 @@
+
+.pokemonCard {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 1px solid #dda2d3;
+    margin: 10px 0;
+    box-shadow: 3px 3px 5px #c2bec1, -3px -3px 5px #c2bec1;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(236, 234, 233);
+  }
+.pokemonCard:hover {
+    box-shadow: 3px 3px 5px 5px #c2bec1, -3px -3px 5px 5px #c2bec1;
+}
+#imgCard {
+    width: 20%;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .pokemonCard{
+      display: block;
+    }
+    #imgCard {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,86 @@
+.home {
+    text-align: center;
+    justify-content: center;
+}
+
+.home p {
+  background: #e2e1e1;
+  padding: 5px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+/*--------------------------*/
+
+.mewmewtwo {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 30px auto 10px;
+  
+}
+.mewmewtwo p {
+  padding: 3px;
+}
+
+.mewvsmewtwo {
+  border: 1px solid #c2bec1;
+  margin: 10px 0;
+  box-shadow: 3px 3px 5px #c2bec1, -3px -3px 5px #c2bec1;
+  border-radius: 10px;
+  background-color: rgb(236, 234, 233);
+}
+#imgmewvsmewtwo {
+  width: 60%;
+  height: 270px;
+}
+/*mew*/
+.mew {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border: 1px solid #dda2d3;
+  margin: 10px 0;
+  box-shadow: 3px 3px 5px #dda2d3, -3px -3px 5px #dda2d3;
+  align-items: center;
+  border-radius: 20px 0;
+  background-color: rgb(236, 234, 233);
+}
+.mew:hover {
+  box-shadow: 3px 3px 5px 5px #dda2d3, -3px -3px 5px 5px #dda2d3;
+}
+#imgmew {
+  width: 20%;
+  height: 200px;
+}
+/*mewtwo*/
+.mewtwo {
+  /*display: flex;*/
+  flex-direction: row;
+  margin: auto;
+  border: 1px solid #6e4e69;
+  margin: 10px 0;
+  box-shadow: 3px 3px 5px #6e4e69, -3px -3px 5px #6e4e69;
+  align-items: center;
+  border-radius: 0 20px;
+  background-color: rgb(236, 234, 233);
+}
+.mewtwo:hover {
+  box-shadow: 3px 3px 5px 5px #6e4e69, -3px -3px 5px 5px #6e4e69;
+}
+#imgmewtwo {
+  width: 20%;
+  height: 200px;
+  float: right;
+}
+
+
+@media screen and (max-width: 600px) {
+  .mewtwo, .mew {
+    display: block;
+  }
+  #imgmewtwo, #imgmew, #imgmewvsmewtwo {
+    width: 100%;
+  }
+}
