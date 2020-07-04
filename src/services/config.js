@@ -63,7 +63,7 @@ export const MEWS = [
     {
         className: 'mewvsmewtwo',
         id: 'imgmewvsmewtwo',
-        src: 'images/mewvsmewtwo.jpg',
+        src: 'images/mewVsmewtwo.jpg',
         title: 'Mew vs Mewtwo',
         content: `Mewtwo is Mew's bigger and more powerful clone. Mewtwo has been through more trauma than its original. Mew has a better variety of attacks, but Mewtwo's overall Pokédex stats are better.
         Though Mewtwo has raw power, it does not have the centuries of experience in battle that Mew possesses. Mew also has more willpower to survive, while Mewtwo attacked out of anger.`

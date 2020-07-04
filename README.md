@@ -1,5 +1,5 @@
 
-# Giffy Gif App
+# Pokedex Pokemon App
 
 This is a pokedex application! Here you can find all the pokemons and all information about them!
 
