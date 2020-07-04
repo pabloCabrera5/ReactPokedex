@@ -5,7 +5,7 @@ This is a pokedex application! Here you can find all the pokemons and all inform
 
 ## Application Visualization - Link
 
-Click in this link to see the app.
+Click in this link to see the app. [PokedexPokemon] (https://pokedexpokemon.now.sh/)
 
 ## Launch the project follow the nexts steps: 
 
